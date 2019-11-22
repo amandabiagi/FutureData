@@ -1,0 +1,194 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ecf0f1;
+}
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    top: 0px;
+    background-color: #ecf0f1;
+    width: 100%;
+    position: fixed;
+    height:17vh;   
+}
+
+header ul{
+    list-style-type:none;
+    
+}
+
+header li{
+    float: right;       
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bolder;    
+}
+
+header a{
+    float: left;
+    color:#26a8ff;
+    text-decoration: none;
+    margin-left: 130px;
+    margin-right: 60px;
+    margin-top: 20px;
+    
+}
+header a :hover{    
+    color: #64dfad;
+    transition: 1s linear;
+}
+
+.logo_menu{
+    margin: 10px 0px 0px 40px;
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+
+/*FIM DO MENU*/
+
+.basico{
+    position: absolute;
+    width: 20vw;
+    height: 65vh;
+    background-color:transparent;
+    top: 27.5vh;
+    left: 10vw;
+    border-radius: 12px;
+    border: #59f844 4px solid;   
+}
+.basico b{
+    position: relative;
+    color: #2c3e50;
+    font-size:30px;
+    font-family: Arial;
+    text-align: center;
+    left:25%;
+    top: 10px;
+}
+
+.medio{
+    position: absolute;
+    width: 25vw;
+    height: 70vh;
+    background-color: transparent;
+    top: 25vh;
+    left: 38vw;
+    border-radius: 12px;
+    border:#44a1f8 4px solid;
+}
+.avancado{
+    position: absolute;
+    width: 20vw;
+    height: 65vh;
+    background-color:transparent;
+    top: 27.5vh;
+    left: 70vw;
+    border-radius: 12px;
+    border: #faad07 4px solid
+}
+
+.basico li{
+    position: relative;    
+    font-weight: bolder;
+    list-style-type:square;
+    color: #2c3e50;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 10px;
+    left:0;
+}
+
+.medio li{
+    position: relative;    
+    font-weight: bolder;
+    list-style-type:square;
+    color: #2c3e50;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 10px;
+    left:0;
+}
+.medio b{
+    position: relative;
+    color: #2c3e50;
+    font-size:30px;
+    font-family: Arial;
+    text-align: center;
+    left:25%;
+    top: 10px;
+}
+
+.avancado li{
+    position: relative;    
+    font-weight: bolder;
+    list-style-type:square;
+    color: #2c3e50;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 10px;
+    left:0;
+}
+.avancado b{
+    position: relative;
+    color: #2c3e50;
+    font-size:30px;
+    font-family: Arial;
+    text-align: center;
+    left:5%;
+    top: 10px;
+}
+
+.avancado button{
+  position: relative;
+  top: 100px;;
+  left: 5%;
+  background-color:#faad07;
+  color: aliceblue;
+  width: 90%;
+  height:40px;
+}
+
+.medio button{
+    position: relative;
+    top: 85px;;
+    left: 5%;
+    background-color:#44a1f8 ;
+    color: aliceblue;
+    width: 90%;
+    height:40px;;
+  }
+
+  .basico button{
+    position: relative;
+    top: 130px;
+    left: 5%;
+    background-color:#59f844;
+    color: aliceblue;
+    width: 90%;
+    height:40px;
+  }
+
+  button{
+      outline: none;      
+  }
+  .basico button:hover{
+      transition: 0.2s all linear;
+      top: 135px;
+
+  }
+  .medio button:hover{
+    transition: 0.2s all linear;
+    top: 90px;
+
+}
+.avancado button:hover{
+    transition: 0.2s all linear;
+    top: 105px;
+
+}
+  
