@@ -122,3 +122,14 @@ button{
     position: relative;
     left: 35%;
 }
+
+#cadeado {
+    position: absolute;
+    width: 35px;
+    left: 220px;
+}
+#cadeado2 {
+    position: absolute;
+    width: 35px;
+    left: 220px;
+}
