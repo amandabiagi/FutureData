@@ -12,7 +12,6 @@ function cadastrar(){
         bairro.value=='' ||
         cep.value == '' ||
         cidade.value=='' ||
-        estado.value == '' ||
         senha.value == '' ||
         confirmar_senha.value == ''){
 
@@ -23,7 +22,7 @@ function cadastrar(){
             senha.value='';
             confirmar_senha.value='';
 
-    }else if (emails.indexOf('@') < 1 ){             
+    }else if (emails.indexOf('@') < 1  ){             
             mensagem.innerHTML='Digite um email válido';
             emails=''
 

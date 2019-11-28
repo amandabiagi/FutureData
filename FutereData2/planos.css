@@ -145,7 +145,7 @@ header a :hover{
 
 .avancado button{
   position: relative;
-  top: 100px;;
+  top: 91px;;
   left: 5%;
   background-color:#faad07;
   color: aliceblue;
@@ -155,7 +155,7 @@ header a :hover{
 
 .medio button{
     position: relative;
-    top: 85px;;
+    top: 70px;
     left: 5%;
     background-color:#44a1f8 ;
     color: aliceblue;
@@ -165,7 +165,7 @@ header a :hover{
 
   .basico button{
     position: relative;
-    top: 130px;
+    top:125px;
     left: 5%;
     background-color:#59f844;
     color: aliceblue;
@@ -178,17 +178,17 @@ header a :hover{
   }
   .basico button:hover{
       transition: 0.2s all linear;
-      top: 135px;
+      top: 127px;
 
   }
   .medio button:hover{
     transition: 0.2s all linear;
-    top: 90px;
+    top: 72px;
 
 }
 .avancado button:hover{
     transition: 0.2s all linear;
-    top: 105px;
+    top: 93px;
 
 }
   
