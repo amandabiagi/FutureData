@@ -14,50 +14,64 @@
                 
                 <nav>
                         <ul>                   
-                                <li><a href=""  onclick="cadastrar()">Cadastre-se</a></li>
-                                <li><a href="">iniciar sessão</a></li>
-                                <li><a href="" >Planos</a></li>
-                                <li><a href="">Conteúdo</a></li>
+                                <li><a href="cadastro.html"  onclick="cadastrar()">Cadastre-se</a></li>
+                                <li><a href="iniciar.html">iniciar sessão</a></li>
+                                <li><a href="planos.html" >Planos</a></li>
+                                <li><a href="conteudo.html">Conteúdo</a></li>
                         
                         </ul>
                 </nav>
             </header>
-            <img src="fundo3.png" alt="" style="opacity:0.2">
+            <img src="fundo3.png" alt="" style="opacity:0.2" class="imagemfundo">
 
             <div class="planos">
-                <div class="basico" > <b> BÁSICO </b>
-                        <ul class="lista_basico">
-                                <li> Acesso a todas as aulas.</li>
-                                <li> Duração de 12 meses.</li>
-                                <li> 24 horas/Dia.</li>
-                                <li> Todos os dias da semana.</li>
+                
+                <fieldset class="campo_basico">
+                    <legend class="basico" > BÁSICO </legend>
+                        <ul class="lista_basico" >
+                            <li> <img src="checado.png" alt=""> Acesso a todas as aulas.</li>
+                            <li><img src="checado.png" alt="">Duração de 12 meses.</li>
+                            <li><img src="checado.png" alt="">24 horas/Dia.</li>
+                            <li><img src="checado.png" alt="">Todos os dias da semana.</li>
+                            <li><img src="nchecado.png" alt="">Exercícios exclusivos.</li>
+                            <li><img src="nchecado.png" alt="">Projetos especiais avaliados.</li>
+                            <li><img src="nchecado.png" alt="">Comentários dos professores.</li>
+                            <li><img src="nchecado.png" alt="">Chat em diferentes horários.</li>
                             </ul>
                             <a href="cadastro.html"><button onclick="comprar_basico()">MATRICULE-SE</button></a>
-                </div>
-                       
-                <div class="medio"> <b>AVANÇADO</b>
-                    <ul class="lista_basico">
-                            <li>Acesso a todas as aulas.</li>
-                            <li>Duração de 12 meses.</li>
-                            <li>24 horas/Dia.</li>
-                            <li>Todos os dias da semana.</li>
-                            <li>Exercícios exclusivos.</li>
-                            <li>Projetos especiais avaliados.</li>
-                            <li>Comentários dos professores.</li>
-                            <li>Chat em diferentes horários.</li>
+                    
+                </fieldset>                       
+                
+                    <fieldset class="campo_avancado">
+                        <legend class="avancado">AVANÇADO</legend>
+                    <ul class="lista_avancado">
+                            <li><img src="checado.png" alt="">Acesso a todas as aulas.</li>
+                            <li><img src="checado.png" alt="">Duração de 12 meses.</li>
+                            <li><img src="checado.png" alt="">24 horas/Dia.</li>
+                            <li><img src="checado.png" alt="">Todos os dias da semana.</li>
+                            <li><img src="checado.png" alt="">Exercícios exclusivos.</li>
+                            <li><img src="checado.png" alt="">Projetos especiais avaliados.</li>
+                            <li><img src="checado.png" alt="">Comentários dos professores.</li>
+                            <li><img src="checado.png" alt="">Chat em diferentes horários.</li>
                         </ul>
                         <a href="cadastro.html"><button onclick="comprar_avancado()">MATRICULE-SE</button></a>
-                </div>
-                <div class="avancado"><b>INTERMEDIÁRIO</b>
-                <ul class="lista_avancado">
-                    <li>Acesso a todas as aulas.</li>
-                    <li>Duração de 12 meses.</li>
-                    <li>24 horas/Dia.</li>
-                    <li>Todos os dias da semana.</li>
-                    <li>Exercícios exclusivos.</li>
+                    </fieldset>  
+
+                
+                <fieldset class="campo_medio">
+                    <legend class="medio">INTERMEDIÁRIO</legend>
+                <ul class="lista_medio">
+                            <li><img src="checado.png" alt="">Acesso a todas as aulas.</li>
+                            <li><img src="checado.png" alt="">Duração de 12 meses.</li>
+                            <li><img src="checado.png" alt="">24 horas/Dia.</li>
+                            <li><img src="checado.png" alt="">Todos os dias da semana.</li>
+                            <li><img src="checado.png" alt="">Exercícios exclusivos.</li>
+                            <li><img src="nchecado.png" alt="">Projetos especiais avaliados.</li>
+                            <li><img src="nchecado.png" alt="">Comentários dos professores.</li>
+                            <li><img src="nchecado.png" alt="">Chat em diferentes horários.</li>
                 </ul>
                 <a href="cadastro.html"><button onclick="comprar_intermediario()">MATRICULE-SE</button></a>
-                </div>
+                </fieldset>
             </div>
 </body>
 </html>

@@ -7,6 +7,10 @@ html{
     overflow-y: hidden;
     overflow-x: hidden;
 }
+.imagemfundo{
+    position: absolute;
+    z-index: -1;
+}
 
 header {
     top: 0px;
@@ -44,151 +48,76 @@ header a :hover{
 
 .logo_menu{
     margin: 10px 0px 0px 40px;
-    position: absolute;
+    position: fixed;
     width: 100px;
     z-index: 1;
+    top:0vh;
+    left:1vw;
 }
 
 /*FIM DO MENU*/
 
-.basico{
-    position: absolute;
-    width: 20vw;
-    height: 65vh;
-    background-color:transparent;
-    top: 27.5vh;
-    left: 10vw;
-    border-radius: 12px;
-    border: #59f844 4px solid;   
+
+
+.planos img{
+    width: 22px;
 }
-.basico b{
+
+.planos ul{
+    list-style-type:none;
+}
+
+.planos li{
     position: relative;
-    color: #2c3e50;
-    font-size:30px;
-    font-family: Arial;
-    text-align: center;
-    left:25%;
-    top: 10px;
+    left:-20px;
 }
 
-.medio{
-    position: absolute;
-    width: 25vw;
-    height: 70vh;
-    background-color: transparent;
-    top: 25vh;
-    left: 38vw;
-    border-radius: 12px;
-    border:#44a1f8 4px solid;
-}
-.avancado{
-    position: absolute;
-    width: 20vw;
-    height: 65vh;
-    background-color:transparent;
-    top: 27.5vh;
-    left: 70vw;
-    border-radius: 12px;
-    border: #faad07 4px solid
+.planos button{
+    position: relative;
+    left: 25%;
+    color:#476c75
 }
 
-.basico li{
-    position: relative;    
-    font-weight: bolder;
-    list-style-type:square;
-    color: #2c3e50;
-    font-family: Arial;
+.planos{
     font-size: 20px;
-    margin-top: 10px;
-    left:0;
 }
 
-.medio li{
-    position: relative;    
+
+.planos fieldset{
+    float: left;
+    position: relative;
+    top: 150px;
+    width:300px;
+    height:350px;
+    
+    z-index: -1;
+    margin-left: 80px;    
+}
+
+
+.campo_basico legend{
+
     font-weight: bolder;
-    list-style-type:square;
-    color: #2c3e50;
-    font-family: Arial;
-    font-size: 20px;
-    margin-top: 10px;
-    left:0;
+    font-size: 1.6rem;
 }
-.medio b{
-    position: relative;
-    color: #2c3e50;
-    font-size:30px;
-    font-family: Arial;
-    text-align: center;
-    left:25%;
-    top: 10px;
+.campo_basico{
+    border: 1.5px #26ff38 solid ;
+    
 }
 
-.avancado li{
-    position: relative;    
+.campo_medio legend{
+
     font-weight: bolder;
-    list-style-type:square;
-    color: #2c3e50;
-    font-family: Arial;
-    font-size: 20px;
-    margin-top: 10px;
-    left:0;
+    font-size: 1.6rem;
 }
-.avancado b{
-    position: relative;
-    color: #2c3e50;
-    font-size:30px;
-    font-family: Arial;
-    text-align: center;
-    left:5%;
-    top: 10px;
+.campo_medio{
+    border: 1.5px #ffde26 solid ;
 }
+.campo_avancado legend{
 
-.avancado button{
-  position: relative;
-  top: 100px;;
-  left: 5%;
-  background-color:#faad07;
-  color: aliceblue;
-  width: 90%;
-  height:40px;
+    font-weight: bolder;
+    font-size: 1.6rem;
 }
-
-.medio button{
-    position: relative;
-    top: 85px;;
-    left: 5%;
-    background-color:#44a1f8 ;
-    color: aliceblue;
-    width: 90%;
-    height:40px;;
-  }
-
-  .basico button{
-    position: relative;
-    top: 130px;
-    left: 5%;
-    background-color:#59f844;
-    color: aliceblue;
-    width: 90%;
-    height:40px;
-  }
-
-  button{
-      outline: none;      
-  }
-  .basico button:hover{
-      transition: 0.2s all linear;
-      top: 135px;
-
-  }
-  .medio button:hover{
-    transition: 0.2s all linear;
-    top: 90px;
-
+.campo_avancado{
+    border: 1.5px #26ccff solid ;
 }
-.avancado button:hover{
-    transition: 0.2s all linear;
-    top: 105px;
-
-}
-  
